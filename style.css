@@ -1,0 +1,275 @@
+@import "path/to/font-awesome/less/font-awesome.less";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+
+
+}
+
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    text-align: center;
+    margin: 20px;
+}
+
+
+hr {
+    border-top: 1px solid gray;
+    width: 100%;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    z-index: 100;
+
+
+
+}
+
+
+nav > img {
+    height: 2.5rem;
+    margin: 1rem;
+    margin-left: 5rem;
+}
+
+
+nav > a, nav > a:hover, nav > a:active, nav > a:visited {
+    margin-left: 2rem;
+    color: gray;
+    text-decoration: none;
+}
+
+
+nav > a:hover {
+    color: black;
+}
+
+
+
+header {
+    width: 100%;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+img[alt="divider2"] {
+    margin: 1rem;
+}
+
+
+button{
+    margin: 20px;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    color: white
+}
+
+.social i{
+    color: red
+}
+
+.reviews h2{
+    color: #c69e34;
+}
+
+
+.full-width {
+    display: flex;
+    width: 90%;
+    gap: 2rem;
+}
+
+
+
+.half {
+    width: 50%;
+}
+
+
+
+.half p {
+    text-align: justify;
+}
+
+
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+}
+
+
+.img-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.text-side-to-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem;
+
+
+}
+
+
+
+.text-side-to-side h2 {
+    width: 30%;
+}
+
+
+
+.text-side-to-side p {
+    width: 60%;
+}
+
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    gap: 1rem;
+}
+
+
+
+
+.gallery img {
+    width: 90%;
+}
+
+
+
+
+.left-cont, .right-cont {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+
+
+
+.right-cont {
+    flex-direction: row-reverse;
+}
+
+
+
+
+.full-img, .full-img-2 {
+    width: 50%;
+    height: 30rem;
+    background-size: cover;
+    background-image: url("pics/restaurant-table.jpg");
+}
+
+
+
+
+.full-img-2 {
+    background-image: url("pics/inside-pool-800x500.jpg");
+}
+
+
+
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 30rem;
+
+
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    place-items: center;
+    width: 90%;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+
+.card img {
+    width: 100%;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 5rem;
+    background-color: #252525;
+
+
+
+}
+
+
+footer p {
+    margin: 2rem 0px;
+    color: white;
+}
+
+
+.footer-imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+}
